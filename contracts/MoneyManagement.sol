@@ -73,6 +73,10 @@ contract MoneyManagement{
     	require(i>0&&i<=names.length);
     	return names[i-1];
     }
+    function getDetails(uint i)public view returns(string memory,address,uint){
+        require(i>0&&i<=names.length);
+        return (names[i-1],accounts[names[i-1]],percentage[accounts[names[i-1]]]);
+    }
     function stringsEqual(string storage _a, string memory _b) view internal returns (bool) {
         bytes storage a = bytes(_a);
         bytes memory b = bytes(_b);
