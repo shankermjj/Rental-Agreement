@@ -69,9 +69,20 @@ contract MoneyManagement{
             return "Account with provided name not found";
         }
     }
+    function getNamesLength()public view returns(uint){
+        return names.length;
+    }
     function getNames(uint i)public view returns(string memory){
-    	require(i>0&&i<=names.length);
-    	return names[i-1];
+        require(i>0&&i<=names.length);
+        return names[i-1];
+    }
+    function getAddress(uint i)public view returns(address){
+        require(i>0&&i<=names.length);
+        return (accounts[names[i-1]]);
+    }
+    function getPercentage(uint i)public view returns(uint){
+        require(i>0&&i<=names.length);
+        return (percentage[accounts[names[i-1]]]);
     }
     function getDetails(uint i)public view returns(string memory,address,uint){
         require(i>0&&i<=names.length);
