@@ -1,7 +1,7 @@
 {
-  "name": "DeveloperKit",
+  "name": "rentalagreement",
   "version": "1.0.0",
-  "description": "The Complete Blockchain Developer Toolkit for 2019 & Beyond",
+  "description": "Rental Agreement between Landlords and Teanant",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"
