@@ -12,4 +12,7 @@ Keywords: Blockchain, Ethereum, Smart Contract, Dapp[decentralized application],
 
 <h4> Execution Video <h4>
   https://youtu.be/KC1trvO97JU
+  
+  <h4> Paper Publication <h4>
+    https://www.isroset.org/journal/IJSRCSE/full_paper_view.php?paper_id=1585
 
